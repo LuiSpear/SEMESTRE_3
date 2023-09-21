@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+  button {
+    padding: 3px 8px; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  label {
+    margin-right: 15px; 
+  }
+    </style>
+    <title>Document title</title>
+  </head>
+  <body>
+    <h1>Inventario con Vectores</h1>
+    
+    <form>
+        <form>
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" />
+            <br />
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" />
+            <br />
+            <label for="cantidad">Cantidad:</label>
+            <input type="text" id="cantidad" />
+            <br />
+            <label for="precio">Precio:</label>
+            <input type="text" id="precio" />
+            <br /><br />
+            <button type="button" id="btnAdd">Agregar</button>
+            <button type="reset">Cancelar</button>
+            <button type="button" id="btnBusq">Buscar</button>
+            <button type="button" id="btnDel">Eliminar</button>
+            <button type="button" id="btnIns">Insertar</button>
+            <input type="number" id="pos" placeholder="Posición" style="width: 65px" />
+            <button type="button" id="btnList">Listar</button>
+            <button type="button" id="btnListInv">Listar inverso</button>
+          </form>
+          
+    </form>
+    <div id="inventarioHTML"></div>
+    <br />
+    <div id="detalles"></div>
+  </body>
+  <script src="SistInfo.js"></script>
+</html>
